@@ -20,7 +20,7 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoicGF0cmlja2IiLCJhIjoicUc2VDd6MCJ9.UEyrNokmM_zgpfGfgryfUA';
   var map = L.mapbox.map('map', 'examples.map-i86nkdio')
-      .setView([38.89399, -77.03659], 17);
+      .setView([-33.8125, 151.1708], 15);
 
   var featureGroup = L.featureGroup().addTo(map);
 
